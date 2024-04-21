@@ -1,0 +1,86 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+/* Lottie Animation */
+.lottie {
+    float: left;
+    width: 40%;
+    margin-top: 10%;
+}
+
+/* Chatbot Container */
+.chatbot {
+    float: right;
+    width: 60%; 
+    background-color: #f0f0f0; /* Adjust background color */
+    min-height: 85vh;
+    
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    position: relative;
+    padding: 20px; /* Add padding */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Messages Container */
+.messages {
+    max-height: 70vh; /* Limit height and add scrollbar */
+    overflow-y: auto;
+}
+
+/* Individual Message */
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    word-wrap: break-word; /* Wrap long words */
+}
+
+/* User Message */
+.user {
+    background-color: #5F9EA0; /* Adjust user message color */
+    color: #fff; /* Text color */
+    align-self: flex-end; /* Align to the right */
+}
+
+/* Bot Message */
+.bot {
+    background-color: #ddd; /* Adjust bot message color */
+}
+
+/* Form Container */
+.form {
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+/* Input Field */
+.inchat {
+    width: calc(100% - 80px); /* Adjust width */
+    padding: 15px;
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 25px; /* Make it more rounded */
+    outline: none; /* Remove outline */
+}
+
+/* Send Button */
+button {
+    width: 60px;
+    height: 60px;
+    background-color: #5F9EA0; /* Adjust button color */
+    border: none;
+    border-radius: 50%; /* Make it circular */
+    color: #fff; /* Text color */
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover Effect on Button */
+button:hover {
+    background-color: #4682B4; /* Darken button color on hover */
+}

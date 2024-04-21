@@ -1,7 +1,6 @@
 
 import './App.css';
-import Main from './font/main';
-
+import Main from './frontend/main';
 function App() {
     return (
     <>
@@ -9,5 +8,4 @@ function App() {
     </>
   );
 }
-
 export default App;
