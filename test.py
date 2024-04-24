@@ -24,9 +24,7 @@ class ChatBot:
         message = self.text_area.get("1.0", tk.END).strip()
         self.text_area.delete("1.0", tk.END)
         self.display_message("You: " + message)
-        # Here, you can implement your chatbot logic to respond to the user's message
-        # For simplicity, let's just echo the user's message for now
-        response = "Bot: " + message  # Echoing the user's message
+        response = "Bot: " + message  
         self.display_message(response)
 
     def display_message(self, message):
